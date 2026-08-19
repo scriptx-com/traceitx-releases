@@ -67,17 +67,17 @@ let package = Package(
         .binaryTarget(
             name: "TraceItXKit",
             url: baseURL + "TraceItXKit.xcframework.zip",
-            checksum: "2591dc95511a3fc51e9d36e3e0170572b78d81b639ecfa589597605626948a47"
+            checksum: "3c7e2f7beee1171d4f16d8a92fb6c355a694a0fb25d3e169f9b96db400fa7cc0"
         ),
         .binaryTarget(
             name: "TraceItXProtocol",
             url: baseURL + "TraceItXProtocol.xcframework.zip",
-            checksum: "5f4a6d571fd17ac33f03ac80f8f2f0d2d5e4747cce47f6641a3d6394b86668cf"
+            checksum: "0a6b176cc7ec21a052e3ecfc40df3968306027f44a27646e08ba9576703b457b"
         ),
         .binaryTarget(
             name: "TraceItXReporterUI",
             url: baseURL + "TraceItXReporterUI.xcframework.zip",
-            checksum: "c143f5b07b43524c91e2c2c266ff0b34fbbd7a0d16eae797983a02f91ea9b138"
+            checksum: "3ab8365948fe482dcd006863d902bfee0cf47eaf5230e3b38b384a06d3582e17"
         ),
     ]
 )
