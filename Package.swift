@@ -45,7 +45,7 @@
 //   * TraceItXReporterUI   — optional reporter modal (opt-in via product).
 import PackageDescription
 
-let binaryVersion = "0.6.3"
+let binaryVersion = "0.6.4"
 let baseURL = "https://github.com/scriptx-com/traceitx-releases/releases/download/v\(binaryVersion)/"
 
 let package = Package(
@@ -67,17 +67,17 @@ let package = Package(
         .binaryTarget(
             name: "TraceItXKit",
             url: baseURL + "TraceItXKit.xcframework.zip",
-            checksum: "3c7e2f7beee1171d4f16d8a92fb6c355a694a0fb25d3e169f9b96db400fa7cc0"
+            checksum: "50cdbed4cae873d353f772d90911ceacc3ab04f74350c6cc2cfe104d29a8f609"
         ),
         .binaryTarget(
             name: "TraceItXProtocol",
             url: baseURL + "TraceItXProtocol.xcframework.zip",
-            checksum: "0a6b176cc7ec21a052e3ecfc40df3968306027f44a27646e08ba9576703b457b"
+            checksum: "5d39f96b330845fabd516ceca25517813f662d62004a9120b0118b393d6edcf7"
         ),
         .binaryTarget(
             name: "TraceItXReporterUI",
             url: baseURL + "TraceItXReporterUI.xcframework.zip",
-            checksum: "3ab8365948fe482dcd006863d902bfee0cf47eaf5230e3b38b384a06d3582e17"
+            checksum: "d0b8ae17b25f8884b4bb21ea4577e400d5d2fb878c7a7ddb3ecab6f29b235f50"
         ),
     ]
 )
