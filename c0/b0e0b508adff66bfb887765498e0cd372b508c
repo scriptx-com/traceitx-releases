@@ -1,0 +1,14 @@
+Package.swift
+  h_af305fd8f2c5c5 70,75,80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "c0b0e0b508adff66bfb887765498e0cd372b508c",
+  "prompts": {},
+  "humans": {
+    "h_af305fd8f2c5c5": {
+      "author": "Aurimas Mickys <aurimasmickys@gmail.com>"
+    }
+  }
+}
